@@ -5,9 +5,12 @@
 }
 nav{
     display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 nav > ul{
     display: flex;
+    align-items: center;
 }
 nav li{
     list-style: none;
