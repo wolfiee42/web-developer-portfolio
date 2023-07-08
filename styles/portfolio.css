@@ -1,10 +1,6 @@
 * {
     margin: 0px;
     padding: 0p;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-h3{
-    
     font-family: 'Open Sans', sans-serif;
 }
 nav{
@@ -34,6 +30,6 @@ nav li a{
     border: none;
     color: white;
     border-radius: 3px;
-    font-size: 12px;
-    padding: 5px 10px;
+    font-size: 18px;
+    padding: 18px 35px;
 }
