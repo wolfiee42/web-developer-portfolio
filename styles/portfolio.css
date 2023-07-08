@@ -3,36 +3,69 @@
     padding: 0p;
     font-family: 'Open Sans', sans-serif;
 }
-nav{
+
+header {
+    background-color: #FFF8F3;
+    padding: 30px 30px 30px 150px;
+}
+
+nav {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 }
-nav > ul{
+
+nav>ul {
     display: flex;
     align-items: center;
 }
-nav li{
+
+nav li {
     list-style: none;
     margin-right: 50px;
 }
-nav li a{
+
+nav li a {
     text-decoration: none;
     color: #474747
 }
+
 .portfolio-title {
     color: #181818;
     font-size: 45px;
     font-weight: 800;
 }
-.primary-color{
+
+.primary-color {
     color: #FD6E0A;
 }
-.primary-btn{
+
+.primary-btn {
     background-color: #FD6E0A;
     border: none;
     color: white;
     border-radius: 3px;
-    font-size: 18px;
-    padding: 18px 35px;
+    font-size: 14px;
+    padding: 10px 25px;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+}
+
+.banner .profile-pic {
+    width: 450px;
+    height: 500px;
+}
+.title1{
+    margin: 20px 0px;
+    font-size: 40px;
+}
+.title2{
+    margin: 20px 0px;
+    font-size: 80px;
+}
+button{
+    margin-right: 10px;
 }
