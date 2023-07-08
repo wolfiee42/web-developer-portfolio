@@ -203,3 +203,8 @@ section hr{
     align-items: center;
     margin: 50px 0px 113px 0px;
 }
+footer{
+    display: flex;
+    background-color: #FFF8F3;
+    padding: 130px 200px;
+}
