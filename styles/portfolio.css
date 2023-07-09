@@ -149,6 +149,7 @@ main section {
     /* width: 250px;
     height: 350px; */
     padding: 20px;
+    height: 250px;
 }
 
 .skill-title {
@@ -194,17 +195,61 @@ main section {
     font-size: 16px;
     font-weight: 400;
 }
-section hr{
+
+section hr {
     margin: 20px 0px;
 }
-.button-cv{
+
+.button-cv {
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 50px 0px 113px 0px;
 }
-footer{
+
+footer {
     display: flex;
+    gap: 100px;
     background-color: #FFF8F3;
     padding: 130px 200px;
+}
+
+.footer-sec {
+    width: 50%;
+}
+
+.form-container input {
+    display: block;
+}
+
+.form-items {
+    margin: 10px;
+    width: 45%;
+    padding: 25px 250px 30px 20px;
+    border: none;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06)
+}
+
+.form-container input::placeholder {
+    color: #757575;
+    font-size: 24px;
+    font-weight: 400;
+    padding: 18px 300px 30px 0px;
+}
+
+.form-container textarea::placeholder {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.btn4 {
+    margin-left: 10px;
+}
+
+.formDes {
+    padding: 20px 0px;
+}
+
+.social-link a {
+    margin-right: 10px;
 }
